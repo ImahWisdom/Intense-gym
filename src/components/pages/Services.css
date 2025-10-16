@@ -1,0 +1,256 @@
+/* ===== Hero Section ===== */
+.background {
+    background-image: url('breatcome.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .text-contain {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  /* ===== Fitness Section ===== */
+  .fitness-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 10%;
+    background-color: #f9f9f9;
+  }
+  
+  .fitness-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .fitness-image {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .fitness-text {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .fitness-text h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .fitness-text h3 {
+    font-size: 1.2rem;
+    color: #0067ce;
+    margin: 10px 0;
+  }
+  
+  .fitness-text p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .fitness-text h4 {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* ===== Choose Plan Section ===== */
+  .welcome-container {
+    text-align: center;
+    margin-top: 60px;
+    padding: 0 20px;
+  }
+  
+  .welcome-title {
+    font-size: 2rem;
+  }
+  
+  .red-line {
+    width: 100px;
+    height: 4px;
+    background-color: red;
+    margin: 15px auto;
+  }
+  
+  .welcome-message {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* ===== Workout Plans ===== */
+  .workout-plans {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .plan-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 320px;
+    min-height: 420px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .plan:hover {
+    transform: scale(1.05);
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    color: #0067ce;
+    margin: 10px 0 15px;
+  }
+  
+  .plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .plan li {
+    margin: 10px 0;
+    color: #444;
+    font-size: 1rem;
+  }
+  
+  .btn {
+    background-color: #0067ce;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #004fa0;
+  }
+  
+  /* ===== Community Section ===== */
+  .fitness-community {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('action-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 10%;
+    min-height: 350px;
+    color: white;
+    text-align: left;
+    gap: 20px;
+  }
+  
+  .line {
+    width: 8px;
+    height: 100px;
+    background-color: #0067ce;
+  }
+  
+  .fitness-community h1 {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    max-width: 600px;
+  }
+  
+  /* ===== Responsive Design ===== */
+  @media (max-width: 768px) {
+    .fitness-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .fitness-text {
+      text-align: center;
+    }
+  
+    .fitness-text h2 {
+      font-size: 1.6rem;
+    }
+  
+    .fitness-text p {
+      font-size: 0.95rem;
+    }
+  
+    .plan {
+      width: 90%;
+      min-height: auto;
+    }
+  
+    .fitness-community {
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+    }
+  
+    .line {
+      height: 5px;
+      width: 50px;
+      margin: 0 auto;
+    }
+  
+    .fitness-community h1 {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .welcome-title {
+      font-size: 1.5rem;
+    }
+  
+    .fitness-text h2 {
+      font-size: 1.3rem;
+    }
+  
+    .plan {
+      padding: 20px;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .fitness-community {
+      padding: 40px 5%;
+    }
+  
+    .fitness-community h1 {
+      font-size: 1.2rem;
+    }
+  }
+  

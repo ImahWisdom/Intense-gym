@@ -1,0 +1,30 @@
+.App {
+  background-color: #fefefe;
+  height: 100%;
+  width: 100%;
+}
+
+
+/* App.css */
+
+html, body {
+  height: 100%; /* Ensure the body takes the full height */
+  margin: 0; /* Remove default margin */
+}
+
+.app-container {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack children vertically */
+  min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
+}
+
+main {
+  flex: 1; /* Allow the main content to grow and take available space */
+}
+
+footer {
+  background-color: #0f172a; /* Footer background color */
+  color: white; /* Footer text color */
+  padding: 20px; /* Padding for the footer */
+  text-align: center; /* Center text */
+}

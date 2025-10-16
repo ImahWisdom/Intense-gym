@@ -1,0 +1,227 @@
+/* ===== Background Hero ===== */
+.background-image {
+  background-image: url('background-05-1920x850.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-container {
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 10%;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-image {
+  flex: 1;
+  max-width: 500px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero-text {
+  flex: 1;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.hero-text h4 {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  color: #495057;
+  line-height: 1.6;
+}
+
+.hero-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hero-text li {
+  padding-left: 25px;
+  margin-bottom: 8px;
+  position: relative;
+  color: #495057;
+}
+
+.hero-text li::before {
+  content: '✔';
+  color: #007bff;
+  position: absolute;
+  left: 0;
+  font-size: 18px;
+}
+
+/* ===== Stats Section ===== */
+.count {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f8faff;
+  padding: 40px 20px;
+  text-align: center;
+  gap: 30px;
+}
+
+.count div {
+  flex: 1 1 150px;
+}
+
+.count h2 {
+  font-size: 2rem;
+  color: #000;
+}
+
+.count h5 {
+  color: #1e4699;
+  font-size: 1rem;
+}
+
+/* ===== Instructors Section ===== */
+.section6 {
+  padding: 50px 5%;
+  text-align: center;
+}
+
+.section6-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.instructor img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.instructor h3 {
+  margin: 10px 0 5px;
+}
+
+.instructor h5 {
+  color: #1e4699;
+}
+
+/* ===== CTA Section ===== */
+.Blue-S {
+  background-color: #0067ce;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+.SLAH h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.B-GT20 button {
+  background: #ffffff;
+  color: #000;
+  padding: 15px 40px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.B-GT20 button:hover {
+  background-color: #004da3;
+  color: white;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 5%;
+  }
+
+  .hero-image {
+    margin-bottom: 20px;
+  }
+
+  .count h2 {
+    font-size: 1.6rem;
+  }
+
+  .section6-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .Blue-S h2 {
+    font-size: 1.6rem;
+  }
+
+  .B-GT20 button {
+    padding: 12px 30px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+
+  .count {
+    gap: 20px;
+  }
+
+  .count div {
+    flex: 1 1 100%;
+  }
+
+  .section6 {
+    padding: 30px 3%;
+  }
+
+  .Blue-S {
+    padding: 40px 15px;
+  }
+
+  .B-GT20 button {
+    padding: 10px 20px;
+  }
+}
