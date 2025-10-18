@@ -1,6 +1,6 @@
 /* ===== Background Hero ===== */
 .background-image {
-  background-image: url('background-05-1920x850.jpg');
+  background-image: url('/background-05-1920x850.jpg');
   background-size: cover;
   background-position: center;
   height: 50vh;
